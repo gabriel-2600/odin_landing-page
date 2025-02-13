@@ -45,6 +45,50 @@ header ul {
 
 /* UPPER-CONTENT */
 #upper-content {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 500px;
+}
+
+.left-side h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.left-side p {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.left-side a {
+  width: fit-content;
+}
+
+button {
+  padding: 10px 15px;
+  color: white;
+  background-color: #3882f6;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.right-side {
+  width: 300px;
+  height: auto;
 }
 
 /* FOOTER */
