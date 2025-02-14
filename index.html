@@ -10,10 +10,10 @@
 
   <body>
     <header>
-      <a id="header-main">Gabriel M</a>
+      <a id="header-main" href="./index.html">Gabriel M</a>
 
       <ul>
-        <li><a href="./index.html">Home</a></li>
+        <li><a href="#upper-content">Home</a></li>
         <li><a href="#lower-content">Tech Stack</a></li>
         <li><a href="#sign-up">Sign up</a></li>
       </ul>
@@ -26,8 +26,7 @@
           The Odin Project Foundations curriculum has helped me solidify my
           understanding of the core concepts of HTML and CSS. This webpage
           serves as proof that I can apply my skills to create a simple landing
-          page. Click the button below to start your Web Development journey
-          with The Odin⚡️
+          page.
         </p>
 
         <a
@@ -49,13 +48,64 @@
     <section id="lower-content">
       <h2>Technology Stack</h2>
 
-      <div class="images-container"></div>
+      <div class="images-container">
+        <div class="image-content">
+          <div class="image">
+            <img alt="HTML Logo" src="images/odin.png" />
+          </div>
+
+          <p>HTML was used for the main scripting structure of this webpage</p>
+        </div>
+
+        <div class="image-content">
+          <div class="image">
+            <img alt="CSS Logo" src="images/odin.png" />
+          </div>
+
+          <p></p>
+        </div>
+
+        <div class="image-content">
+          <div class="image">
+            <img alt="Google Logo" src="images/odin.png" />
+          </div>
+        </div>
+
+        <div class="image-content">
+          <div class="image">
+            <img alt="Github Logo" src="images/odin.png" />
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="quote"></section>
+    <section id="quote">
+      <p id="quote-content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
+        accusantium ipsam sequi commodi maiores tempora hic suscipit eligendi
+        nostrum, quia aspernatur reprehenderit in maxime perferendis nulla
+        error! Quod, quam iste.
+      </p>
+      <p id="quote-author">- Thor, God of Thunder</p>
+    </section>
 
-    <section id="sign-up"></section>
+    <section id="sign-up">
+      <div class="sign-up-container">
+        <div class="sign-up-content">
+          <h3>Call to action! it's time</h3>
+
+          <p>
+            Click the button right over there to start your Web Development
+            journey with The Odin⚡️
+          </p>
+        </div>
+
+        <button id="sign-up-btn">Sign up</button>
+      </div>
+    </section>
 
     <footer><p>Copyright © Gabriel 2021</p></footer>
+
+    <script src="public.js"></script>
   </body>
 </html>
