@@ -129,9 +129,10 @@ header ul {
   text-align: center;
 }
 
-.image {
+#lower-content img {
   border: 3px solid #3882f6;
   border-radius: 15px;
+  padding: 5px;
 }
 
 #lower-content img {
@@ -181,20 +182,23 @@ header ul {
   font-size: 18px;
 }
 
-#sign-up-btn {
+a.button {
   background-color: #3882f6;
   border: 2px solid white;
   border-radius: 5px;
   color: white;
   width: 120px;
   padding: 5px 0;
+  text-align: center;
 }
 
 /* FOOTER */
 footer {
   color: #e5e7eb;
   font-size: 18px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   padding: 25px;
 }
